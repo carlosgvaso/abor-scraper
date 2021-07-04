@@ -189,8 +189,8 @@ def set_logger(conf):
     """
     logging.basicConfig(
             filename=conf.log_file,
+            #encoding='utf-8',
             level=conf.log_level,
-            encoding='utf-8',
             format='%(asctime)s:%(levelname)s:%(module)s:%(funcName)s: %(message)s')
 
 # Main
