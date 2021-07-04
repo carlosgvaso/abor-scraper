@@ -1,0 +1,6 @@
+{
+    "csv_file": "../data/house_data.csv",
+    "log_file": "../log/scraper.log",
+    "log_level": "info",
+    "url": "ADD URL HERE"
+}
