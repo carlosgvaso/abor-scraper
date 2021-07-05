@@ -1,7 +1,0 @@
-name: env_aborscraper
-channels:
-  - defaults
-dependencies:
-  - python=3.9.*
-  - beautifulsoup4=4.9.*
-  - requests=2.25.*
