@@ -1,0 +1,6 @@
+# conf directory gitignore
+
+# Ignore all files except the configuration file
+*
+!.gitignore
+!conf.json
