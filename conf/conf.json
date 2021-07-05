@@ -1,6 +1,41 @@
 {
+    "url_abor": "ADD URL",
+    "key_file": "ADD PATH TO JSON OAUTH2 KEY FILE",
+    "sheet_title": "ADD GOOGLE DRIVE SPREADSHEET TITLE",
     "csv_file": "../data/house_data.csv",
     "log_file": "../log/scraper.log",
     "log_level": "info",
-    "url": "ADD URL HERE"
+    "csv_schema": 
+    [
+        "Address",
+        "Price",
+        "Bedrooms",
+        "Bathrooms",
+        "House Area (Sqft)",
+        "Property Area (Acres)",
+        "Year Built",
+        "Market Status",
+        "MLS",
+        "Link"
+    ],
+    "sheet_schema":
+    [
+        "Status",
+        "Address",
+        "Area",
+        "Area Details",
+        "Price",
+        "Bedrooms",
+        "Bathrooms",
+        "House Area (Sqft)",
+        "Property Area (Acres)",
+        "Year Built",
+        "Market Status",
+        "MLS",
+        "Open House Date",
+        "Start Time",
+        "End Time",
+        "Notes",
+        "Link"
+    ]
 }
